@@ -1,6 +1,9 @@
 Map volumes for logfiles of a container 
 docker run - d -P - v path/:logpathof container log tomcat
 
+Docker top imageid (will give the details of the process running under the container) 
+Docker inspect (will give all the detailed configuration of tje container) 
+
 there are many docker images available on hub.docker.com, we can just pull them & start running containers
 
 	docker search <image name> -- to search the docker images from command line
